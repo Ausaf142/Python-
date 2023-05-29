@@ -7,4 +7,4 @@ print(story.count("a")) #-->Count krne k liye chracter ya words
 print(story.find("A"))  #-->get index number
 print(story.replace("Ausaf","Hareem"))
 print(story.replace("boy","girl"))#-->replace the old one with new one
-
+print(len(story))
