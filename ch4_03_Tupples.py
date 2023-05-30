@@ -5,4 +5,5 @@ t=(1,2,3,4)
 t=()    #-->empty tupple
 t=(1)   #-->wrong way single element tupple
 t=(1,) #-->we need to provide comma for declaring tupple with single element
+
 print(t)
