@@ -1,11 +1,10 @@
 class RailwayForm:
-    def Sum(self):
-        d=self.a+self.b
-        return d
+    formType="RailwayForm"
+    def printData(self):
+        print(f"Name is {self.name}")
+        print(f"Tarin is {self.train}")
 
-
-App=RailwayForm
-App.Sum()
-sum.a=5
-sum.b=6
-print(App.Sum())
+ausafApp=RailwayForm()
+ausafApp.name="Adeeb"
+ausafApp.train="Rajdhani Expess"
+ausafApp.printData()
