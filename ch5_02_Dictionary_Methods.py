@@ -18,4 +18,4 @@ myDict.update(updateDict)
 print(myDict)
 print(list(myDict.keys()))
 print(myDict.get("Harry1"))     #if not available it give none in return
-print(myDict["Harry1"])         #it give error which will stop the result
+#print(myDict["Harry1"])         #it give error which will stop the result

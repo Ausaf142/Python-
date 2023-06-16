@@ -41,5 +41,5 @@ class Programmer(Employee):
 
 
 
-pr=Programmer()
-                  #teeno class k mtd print ho jayenge consecutively
+pr=Programmer() 
+ #teeno class k mtd print ho jayenge consecutively

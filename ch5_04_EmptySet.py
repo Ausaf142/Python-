@@ -10,9 +10,9 @@ print(type(c))
 b =set()
 print(type(b))
 b.add(5)
-b.add(9)
+b.add(9)  #aise sirf ek number add hoga
 #Mtalab jo hum baad be bhi edit,update,insert kr skte hai wo set me add n hoga
-# b.add({1,2})  #we cant add list into set because it is changable further next but set is not
+# b.add([1,2])  #we cant add list into set because it is changable further next but set is not
 b.add((2,99)) #tupple can be addede to set bcz we cant change tupple
 #b.add({"boy":"ausaf"})  #we cant add Dictionary into set because it is changable further next but set is not
 #b[0]=0  #proved set assign or change ni ho skta
