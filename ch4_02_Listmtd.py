@@ -1,6 +1,7 @@
 l1=[1,8,7,2,21,15]
 #li_sorted=l1.sort() #list ko store krne k faida n qk ye direct original item ko change krta hai
 #isliye command use kro
+l1
 print(l1[0:])  #index se b print ho skta hai
 l1.sort()
 print(l1 ,"sorted")      #sorts the list
